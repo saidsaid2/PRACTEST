@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: darkslategrey;">
+    <a class="navbar-brand">Library System</a>
+
+
+        <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="Dashboard.html">Dashboard</a>
+      </li>
+      <li>
+        <a class="nav-link " href="Manage-Users.html">Manage-users</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Manage-books.html" >Manage-books</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Manage-members.html">Manage-members</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Book-issue.html">Book-issue</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Manage-returns.html">Manage-returns</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Manage-report.html">Reports</a>
+      </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid">
+      <h5 class="mb-4">Manage Members</h5>
+
+    <div class="mb-3 d-flex justify-content-between align-items-center">
+        <div class="me-2">
+      <button class="btn btn-success">+ Add New Book</button>
+      </div>
+      <div class="me-2">
+      <input type="text" class="form-control w-25" placeholder="Search... ">
+      </div>
+    </div>
+
+    <div class="table-responsive">
+      <table id="userTable" class="table table-bordered table-striped text-center">
+        <thead class="table-light">
+        <tr>
+          <th>Name</th>
+          <th>Id</th>
+          <th>Phone</th>
+          <th>Email</th>
+          <th>Edit</th>
+          <th>Delete</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Jane Doe</td>
+          <td>MEM001</td>
+          <td>123-456-7890</td>
+          <td>jane@example.com</td>
+          <td><button style="border-radius: 5px; background-color: rgba(10, 189, 239, 0.527);">Edit</button></td>
+          <td><button style="border-radius: 5px; background-color: red;">Delete</button></td>
+      </tr>
+  </tbody>
+<tbody>
+  <tr>
+      <td>John Smith</td>
+      <td>MEM002</td>
+      <td>987-654-3210</td>
+      <td>john@example.com</td>
+      <td><button style="border-radius: 5px; background-color: rgba(10, 189, 239, 0.527);">Edit</button></td>
+      <td><button style="border-radius: 5px; background-color: red;">Delete</button></td>
+  </tr>
+</tbody>
+</table>
+</div>
+ <div class="footer text-center mt-5 py-3" style="background-color: darkslategray;">
+     © 2025 Library Management System.Allright reserved
+  </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/css/bootstrap.min.css">
+</head>
+<body>
+       <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="Dashboard.html">Dashboard</a>
+      </li>
+      <li>
+        <a class="nav-link " href="Manage-Users.html">Manage-users</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Manage-books.html" >Manage-books</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Manage-members.html">Manage-members</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Book-issue.html">Book-issue</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Manage-returns.html">Manage-returns</a>
+      </li>
+      <li>
+        <a class="nav-link" href="Manage-report.html">Reports</a>
+      </li>
+      </ul>
+</div>
+  <div class="container-fluid">
+      <h5 class="mb-4">Manage Books</h5>
+
+    <div class="mb-3 d-flex justify-content-between align-items-center">
+        <div class="me-2">
+      <button class="btn btn-success">+ Add New Book</button>
+      </div>
+      <div class="me-2">
+      <input type="text" class="form-control w-25" placeholder="Search... ">
+      </div>
+    </div>
+
+    <div class="table-responsive">
+      <table id="userTable" class="table table-bordered table-striped text-center">
+        <thead class="table-light">
+        <tr>
+          <th>Tittle</th>
+          <th>ISBN</th>
+          <th>Author</th>
+          <th>Publisher</th>
+          <th>Status</th>
+          <th>Edit</th>
+          <th>Delete</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>The Great Gatsbay</td>
+          <td>9780743273665</td>
+          <td>F.Scott Firzgerald</td>
+          <td>Scribner</td>
+          <td><button style="border-radius: 5px; background-color: rgba(252, 224, 10, 0.527);">Unavailable</button></td>
+          <td><button style="border-radius: 5px; background-color: rgba(0, 200, 255, 0.527);">Edit</button></td>
+          <td><button style="border-radius: 5px; background-color: red;">Delete</button></td>
+      </tr>
+  </tbody>
+<tbody>
+  <tr>
+      <td>To Kill a Mockingbird</td>
+      <td>9780060935467</td>
+      <td>Harper Lee</td>
+      <td>Harper Perennial</td>
+      <td><button style="border-radius: 5px; background-color: rgba(10, 239, 18, 0.527);">Available</button></td>
+      <td><button style="border-radius: 5px; background-color: rgba(0, 200, 255, 0.527);">Edit</button></td>
+      <td><button style="border-radius: 5px; background-color: red;">Delete</button></td>
+  </tr>
+</tbody>
+</table>
+</div>
+ <div class="footer text-center mt-5 py-3" style="background-color: darkslategray;">
+     © 2025 Library Management System.Allright reserved
+  </div>
+</body>
+</html>
